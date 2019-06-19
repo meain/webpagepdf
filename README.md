@@ -12,7 +12,7 @@ npm install -g webpagepdf
 or even use with `npx` directly without installing
 
 ```
-npx webpagepdf -u https://meain.io -O meain.pdf
+npx webpagepdf -u https://en.wikipedia.org/wiki/DeaDBeeF -O DeaDBeeF.pdf
 ```
 
 ## Usage
@@ -30,5 +30,5 @@ Options:
 #### Example
 
 ```
-webpagepdf -u https://meain.io -O meain.pdf
+webpagepdf -u https://en.wikipedia.org/wiki/DeaDBeeF -O DeaDBeeF.pdf
 ```
