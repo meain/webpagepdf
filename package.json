@@ -1,0 +1,23 @@
+{
+  "name": "webpagepdf",
+  "version": "1.0.0",
+  "description": "Convert webpage to pdf",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "bin": {
+    "webpagepdf": "./index.js"
+  },
+  "keywords": [
+    "screenshot",
+    "pdf",
+    "webpage"
+  ],
+  "author": "Abin Simon <abinsimon10@gmail.com> (meain.io)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "puppeteer": "^1.13.0"
+  }
+}
