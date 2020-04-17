@@ -4,7 +4,8 @@
   "description": "Convert webpage to pdf",
   "main": "index.js",
   "scripts": {
-    "run": "node index.js"
+    "run": "node index.js",
+    "test": "node index.js -u 'https://example.com' -O example.pdf && [ -s example.pdf ]"
   },
   "bin": {
     "webpagepdf": "./index.js"
